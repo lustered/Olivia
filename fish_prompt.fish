@@ -1,12 +1,12 @@
 set __olivia_color_orange FD971F
-set __olivia_color_blue 6EC9DD
+set __olivia_color_blue 8380C4
 set __olivia_color_green A6E22E
 set __olivia_color_yellow E6DB7E
 set __olivia_color_pink DEAF9D
 set __olivia_color_grey 554F48
 set __olivia_color_white F1F1F1
 # set __olivia_color_purple 9458FF
-set __olivia_color_purple A67187
+set __olivia_color_purple EBB0C8
 set __olivia_color_lilac AE81FF
 set __olivia_color_oliviapink 8C6976
 # 685975
