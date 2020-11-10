@@ -2,7 +2,7 @@ set __olivia_color_orange FD971F
 set __olivia_color_blue 6EC9DD
 set __olivia_color_green A6E22E
 set __olivia_color_yellow E6DB7E
-set __olivia_color_pink F92672
+set __olivia_color_pink DEAF9D
 set __olivia_color_grey 554F48
 set __olivia_color_white F1F1F1
 set __olivia_color_purple 9458FF
@@ -35,7 +35,7 @@ end
 
 function __olivia_rainbow
   if echo $argv[1] | grep -q -e $argv[3]
-    __olivia_color_echo $argv[2] "✡⛧ ✡⛧"
+    __olivia_color_echo $argv[2] " ✡⛧ ✡⛧ "
   end
 end
 
@@ -60,7 +60,7 @@ function __olivia_git_status
 
     if test -n (__olivia_git_status_codes)
       __olivia_color_echo $__olivia_color_oliviapink ' ●'
-      __olivia_color_echo $__olivia_color_white ' [^._.^]⛧'
+      __olivia_color_echo $__olivia_color_white ' [^._.^]⛧ '
       __olivia_git_status_icons
     else
       __olivia_color_echo $__olivia_color_green ' ○'
@@ -73,5 +73,6 @@ function fish_prompt
   __olivia_color_echo $__olivia_color_purple (__olivia_current_folder)
   __olivia_git_status
   echo
-  __olivia_color_echo $__olivia_color_oliviapink "\$ "
+  # __olivia_color_echo $__olivia_color_oliviapink "\$ "
+  __olivia_color_echo $__olivia_color_oliviapink "\☪ "
 end
