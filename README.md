@@ -1,5 +1,8 @@
-# Toaster
+# Olivia Toaster
 
-A fish (shell) theme with a poptart cat and a rainbow that signifies git status.
+## GMK Olivia is a keyboard keycap set
 
-![Toaster in action](https://github.com/steeeve/toaster/raw/master/screenshot.png)
+# This is a fork of Toaster with GMK Olivia Colors
+
+    Toaster -> https://github.com/oh-my-fish/theme-toaster
+
