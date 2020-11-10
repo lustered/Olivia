@@ -70,10 +70,9 @@ function __olivia_git_status
 end
 
 function fish_prompt
-  __olivia_color_echo $__olivia_color_oliviapink "# "
+  __olivia_color_echo $__olivia_color_oliviapink "⊱ "
   __olivia_color_echo $__olivia_color_purple (__olivia_current_folder)
   __olivia_git_status
   echo
-  # __olivia_color_echo $__olivia_color_oliviapink "\$ "
   __olivia_color_echo $__olivia_color_oliviapink "☪ "
 end
