@@ -5,7 +5,8 @@ set __olivia_color_yellow E6DB7E
 set __olivia_color_pink DEAF9D
 set __olivia_color_grey 554F48
 set __olivia_color_white F1F1F1
-set __olivia_color_purple 9458FF
+# set __olivia_color_purple 9458FF
+set __olivia_color_purple A67187
 set __olivia_color_lilac AE81FF
 set __olivia_color_oliviapink 8C6976
 # 685975
@@ -74,5 +75,5 @@ function fish_prompt
   __olivia_git_status
   echo
   # __olivia_color_echo $__olivia_color_oliviapink "\$ "
-  __olivia_color_echo $__olivia_color_oliviapink "\☪ "
+  __olivia_color_echo $__olivia_color_oliviapink "☪ "
 end
